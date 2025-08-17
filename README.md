@@ -2,8 +2,8 @@
 
 ![Start IT Banner](./social-preview.png)
 
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/start-it-course?style=social)](https://github.com/USERNAME/start-it-course/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/USERNAME/start-it-course?style=social)](https://github.com/USERNAME/start-it-course/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Setevoy13/start-it-course?style=social)](https://github.com/Setevoy13/start-it-course/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Setevoy13/start-it-course?style=social)](https://github.com/Setevoy13/start-it-course/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](./LICENSE-CC-BY-4.0)
 
