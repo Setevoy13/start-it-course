@@ -1,6 +1,4 @@
-My reasons to learn IT:
-1. I want to work remotely.
-2. I want to build my own small projects.
-3. IT is a fast-growing and future-proof field.
-
-The most interesting area for me: Programming and Data.
+Reasons:
+- Remote work, build projects, stable career.
+Role: QA — follows test cases, finds bugs, writes reports, communicates with devs.
+Salary source: (add a link).

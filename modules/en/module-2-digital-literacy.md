@@ -1,92 +1,69 @@
 # Module 2. Basic Digital Literacy 💡
 
----
-
-## 🖥️ What is digital literacy?
-
-**Digital literacy** means being confident with computers and the internet.  
-It includes:
-
-- Creating and saving files 📂
-- Searching for information 🔎
-- Using email 📧
-- Understanding online safety 🔐
-- Installing programs ⚙️
-
-You don’t need to be an expert — just learn the basics step by step.
+**Goal:** feel confident with files, the web, and basic safety. Small steps, clear habits.
 
 ---
 
-## 📂 Files and Folders
+## 📂 Files & Folders
+- A **file** stores information (text, image, program). Examples: `notes.txt`, `photo.jpg`, `script.py`.
+- A **folder** (directory) holds files and other folders.
+- Common actions: **create**, **rename**, **move**, **delete**.
 
-- A **file** is like a sheet of paper (text, picture, program).
-- A **folder** is like a box that holds files.
-- Files can have extensions:
-  - `.txt` → text file
-  - `.jpg` → picture
-  - `.py` → Python code
-
-👉 Practice:
-
-1. Create a folder `my_digital_skills`.
-2. Inside, create a file `notes.txt` and write: Hello, I am learning IT!
-3. Save and close it.
+**Practice:**
+1. Create a folder `digital-practice`.
+2. Inside it, create `my-first-note.txt` with 2–3 lines about your hobbies.
 
 ---
 
-## 🔎 Searching Information
+## 🔎 Smart Web Search
+Use **keywords**, not long sentences. Add meaningful words.
 
-When you don’t know something → **Google it**.  
-Examples of useful searches:
+Examples:
+- `install python windows 11`
+- `free code editor beginner`
+- `python input example`
 
-- `"How to install Python on Windows"`
-- `"Best free text editors"`
-- `"Simple Python examples"`
+Try adding **+** to force inclusion: `python +input +integer`.  
+Use quotes for exact phrases: `"add python to PATH"`.
 
-👉 Tip: Use **keywords**, not full sentences.  
-Bad: _"I want to learn how I can install python on my windows computer please help"_  
-Good: _"Install Python Windows 10"_
+**Practice:** search: `best free code editor` and write your choice into `my-first-note.txt`.
+
+---
+
+## ☁️ Cloud & File Sharing
+- Cloud tools (Google Drive, Dropbox) help you back up and share files.
+- Export to **PDF** before sharing documents for stable formatting.
+
+**Practice:** upload `my-first-note.txt` to your cloud and share a link (optional).
+
+---
+
+## 📧 Email Essentials
+- Subject should be short and clear: `Question about Python task`.
+- Body: be polite, write 3–5 short sentences, add attachments if needed.
 
 ---
 
 ## 🔐 Online Safety
+1. Use **strong passwords** (12+ chars, mix of letters/numbers/symbols).
+2. Turn on **2FA** (two‑factor authentication).
+3. Don’t click suspicious links; check the site address.
+4. Update your system and browser.
 
-1. Use **strong passwords** (example: `MyCatLovesPizza2024!`).
-2. Don’t click on suspicious links.
-3. Use **two-factor authentication (2FA)** if possible.
-4. Never share your personal data with strangers.
+**Practice:** create `safety-rules.txt` with 3 rules you’ll follow.
 
 ---
 
 ## 📝 Tasks
+- Save and organize your files in `digital-practice/`.
+- Write down your editor choice (e.g., **VS Code**) and why.
+- Create `safety-rules.txt` with 3 rules.
 
-1. Create a folder `digital-practice`.
-
-- Add a file `my-first-note.txt` with 2–3 sentences about your hobbies.
-
-2. Search in Google: _"Best free code editor for beginners"_.
-
-- Write your choice into the same file.
-
-3. Write down **3 safety rules** you will follow online.
-
-Save the file in your folder.
-
----
-
-## 🎯 Example
-
-`my-first-note.txt`:
-My hobby is painting. I also like reading books.
-Best free code editor: VS Code.
-My online safety rules:
-
-Use strong passwords.
-
-Do not click suspicious links.
-
-Keep my computer updated.
-
----
+**Example:**
+```
+My hobby is painting and reading.
+Best free code editor: VS Code (extensions, free, popular).
+Rules: strong passwords, 2FA, avoid suspicious links.
+```
 
 👉 Next: [Module 3. Introduction to Python](module-3-python.md)
