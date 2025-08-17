@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌍 Start IT: Open Course
 
 [![GitHub stars](https://img.shields.io/github/stars/USERNAME/start-it-course?style=social)](https://github.com/USERNAME/start-it-course/stargazers)
@@ -52,3 +53,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and 
 ## 📜 License
 - Code → [MIT](./LICENSE)  
 - Content → [CC BY 4.0](./LICENSE-CC-BY-4.0)
+=======
+# start-it-course
+Free open-source course on digital literacy and Python for migrants, women, and seniors. 🌍 Multilingual (EN/RU), hands-on tasks, free certificate.
+>>>>>>> 052f6ae447c8d8acdc0716376dae934fe7e7ee7e
