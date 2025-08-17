@@ -1,0 +1,19 @@
+name: Generate Certificate
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Participant name'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate certificate
+        run: echo "Certificate for ${{ github.event.inputs.name }}" > certificate.txt
+      - uses: actions/upload-artifact@v3
+        with:
+          name: certificate
+          path: certificate.txt

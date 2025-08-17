@@ -1,0 +1,7 @@
+{
+  "languages": ["ru", "en"],
+  "modules": [
+    {"id": 0, "title": {"ru": "Добро пожаловать", "en": "Welcome"}},
+    {"id": 1, "title": {"ru": "Что такое IT?", "en": "What is IT?"}}
+  ]
+}
