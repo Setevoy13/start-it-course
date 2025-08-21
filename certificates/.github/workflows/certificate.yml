@@ -1,0 +1,40 @@
+name: Generate Certificate (Pro)
+
+on:
+  workflow_dispatch:
+    inputs:
+      student_name:
+        description: 'Student Full Name'
+        required: true
+      language:
+        description: 'en or ru'
+        required: true
+        default: 'en'
+      course:
+        description: 'Course title (optional)'
+        required: false
+      issuer:
+        description: 'Issuer (optional)'
+        required: false
+      layout:
+        description: 'portrait or landscape'
+        required: true
+        default: 'portrait'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install reportlab
+      - name: Generate
+        run: |
+          mkdir -p output
+          python generate_certificate.py             --name "${{ github.event.inputs.student_name }}"             --lang "${{ github.event.inputs.language }}"             --layout "${{ github.event.inputs.layout }}"             --out "output/${{ github.event.inputs.student_name }}.pdf"             $( [ -n "${{ github.event.inputs.course }}" ] && echo --course "${{ github.event.inputs.course }}" )             $( [ -n "${{ github.event.inputs.issuer }}" ] && echo --issuer "${{ github.event.inputs.issuer }}" )
+      - uses: actions/upload-artifact@v4
+        with:
+          name: certificate
+          path: output/*.pdf

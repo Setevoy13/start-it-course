@@ -65,5 +65,3 @@ Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) and 
 # start-it-course
 
 Free open-source course on digital literacy and Python for migrants, women, and seniors. 🌍 Multilingual (EN/RU), hands-on tasks, free certificate.
-
-> > > > > > > 052f6ae447c8d8acdc0716376dae934fe7e7ee7e

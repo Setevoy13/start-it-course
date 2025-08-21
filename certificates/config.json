@@ -1,0 +1,16 @@
+{
+  "issuer": "Start IT",
+  "course_default_en": "Start IT: Beginner’s Open Source Program",
+  "course_default_ru": "Start IT: Открытая программа для начинающих",
+  "colors": {
+    "primary": "#1E3A8A",
+    "accent": "#FACC15",
+    "muted": "#475569",
+    "text": "#000000"
+  },
+  "logo": "assets/logo.png",
+  "signature": "assets/signature.png",
+  "stamp": "assets/stamp.png",
+  "font": "assets/DejaVuSans.ttf",
+  "verify_url": "https://example.com/verify"
+}
